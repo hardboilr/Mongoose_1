@@ -21,7 +21,7 @@ newUser.save(function (err) {
 });
 
 chris.dudify(function (err, name) {
-    if (err) {
+    if (err) { 
         throw err;
     }
     console.log('Your new name is: ' + name);
